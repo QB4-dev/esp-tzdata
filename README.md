@@ -12,8 +12,10 @@ convenience API to set the system timezone at runtime using names such as
 
 ### Using ESP Component Registry
 
+[![Component Registry](https://components.espressif.com/components/qb4-dev/tzdata/badge.svg)](https://components.espressif.com/components/qb4-dev/tzdata)
+
 ```bash
-idf.py add-dependency "QB4-dev/tzdata^1.0.0"
+idf.py add-dependency "qb4-dev/tzdata=*"
 ```
 
 ### Manual Installation
